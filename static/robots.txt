@@ -1,0 +1,2 @@
+Sitemap: https://getmonero.dev/sitemap.xml
+Allow: *

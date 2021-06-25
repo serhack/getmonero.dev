@@ -1,0 +1,6 @@
+theme = "getmonero"
+baseURL = "https://getmonero.dev"
+languageCode = "en-us"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+title = "Monero for Developers"
