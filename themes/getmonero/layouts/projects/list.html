@@ -1,6 +1,13 @@
 {{ partial "header.html" . }}
 
 <div class="content">
+		<!-- Ranges through /content/projects/*.md -->
+	    {{ range .Pages }}
+	    	<div class="project">
+	    		<a href="/projects/{{.Title}}">{{ .Title }}</a>
+	    		<p>{{ .Params.description }}</p>
+	    	</div>
+	    {{ end }}
 </div>
 
 {{ partial "footer.html" . }}
