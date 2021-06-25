@@ -6,7 +6,7 @@
 		<!-- Ranges through /content/projects/*.md -->
 	    {{ range .Pages }}
 	    	<div class="project">
-	    		<a href="/projects/{{.Title}}">{{ .Title }}</a>
+	    		<a href="{{ .Permalink }}">{{ .Title }}</a>
 	    		<p>{{ .Params.description }}</p>
 	    	</div>
 	    {{ end }}
