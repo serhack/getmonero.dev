@@ -1,14 +1,30 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html public>
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" prefix="og: http://ogp.me/ns#">
 	<head>
 		<meta charset="utf-8">
 		<meta name=viewport content="width=device-width,initial-scale=1">
-		<title>{{.Title}}</title>
+		<title>{{ .Title }}</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 		<link rel="stylesheet" href="/css/style.css?v=0_1_1">
 
 		<!-- Meta tags for social -->
+		<meta name="title" content="{{ .Title }}">
+		<meta name="description" content="{{ .Description }}">
+
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="{{ .Permalink }}">
+		<meta property="og:title" content="{{ .Title }}">
+		<meta property="og:description" content="{{ .Description}}">
+		<meta property="og:image" content="{{ .Params.metaimg }}">
+
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="{{ .Permalink }}">
+		<meta property="twitter:title" content="{{ .Title }}">
+		<meta property="twitter:description" content="{{ .Description} }">
+		<meta property="twitter:image" content="{{ .Params.metaimg }}">
+
+
 	</head>
 	<body>
 		{{ partial "navbar.html" .}}

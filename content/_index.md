@@ -1,4 +1,4 @@
 +++
 title = "Monero Developers Hub"
-draft = true
+draft = false
 +++

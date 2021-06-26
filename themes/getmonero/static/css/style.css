@@ -5,3 +5,7 @@ body{
 .content{
 	margin: 20px 10px;
 }
+
+nav{
+	display: flex;
+}
