@@ -4,3 +4,15 @@ languageCode = "en-us"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 title = "Monero for Developers"
+
+[menu]
+	
+	[[menu.main]]
+		identifier = "resources"
+		name = "resources"
+		url = "/resources/"
+
+	[[menu.main]]
+		identifier = "projects"
+		name = "projects"
+		url = "/projects/"
