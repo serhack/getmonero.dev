@@ -8,11 +8,16 @@ title = "Monero for Developers"
 [menu]
 	
 	[[menu.main]]
+		identifier = "projects"
+		name = "Contribute"
+		url = "/contribute/"
+
+	[[menu.main]]
 		identifier = "resources"
-		name = "resources"
+		name = "Resources"
 		url = "/resources/"
 
 	[[menu.main]]
 		identifier = "projects"
-		name = "projects"
+		name = "Projects"
 		url = "/projects/"
